@@ -1,1 +1,1 @@
-Directory for c hello world script 
+Directory for alx low level hellow world programming
