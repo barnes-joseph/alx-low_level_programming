@@ -15,7 +15,7 @@ int numbers[3] = {a, b, c};
 
 for (int i = 0; i < 3; i++)
 {
-if (i = 0)
+if (i == 0)
 {
 largest = numbers[i];
 }
