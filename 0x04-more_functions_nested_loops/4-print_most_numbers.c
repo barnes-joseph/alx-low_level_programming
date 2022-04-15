@@ -6,7 +6,8 @@
  */
 void print_most_numbers(void)
 {
-for (int number = 48; number <= 57; number++)
+int number;
+for (number = 48; number <= 57; number++)
 {
 if ((number == 50) || (number == 52))
 {
