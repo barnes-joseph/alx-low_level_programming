@@ -11,21 +11,18 @@
 int largest_number(int a, int b, int c)
 {
 int largest;
-int numbers[3] = {a, b, c};
 
-for (int i = 0; i < 3; i++)
+if (a > b && b > c)
 {
-if (i == 0)
-{
-largest = numbers[i];
+    largest = a;
 }
-else
+if (b > a && a > c)
 {
-if (numbers[i] > largest)
+    largest = b;
+}
+if (c > a && c > b)
 {
-largest = numbers[i];
-}
-}
+    largest = c;
 }
 
 return (largest);
