@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main -  function solves the fizzbuzz problem
- *
+ * Return: 0
  */
-void main(void)
+int main(void)
 {
 int i;
 char fizz[] = "Fizz";
@@ -21,4 +21,5 @@ else
 printf("%d ", i);
 }
 printf("\n");
+return (0);
 }
