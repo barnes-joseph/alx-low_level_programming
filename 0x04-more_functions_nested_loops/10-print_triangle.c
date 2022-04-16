@@ -9,6 +9,11 @@ void print_triangle(int size)
 {
 int column;
 int spaces = size - 1;
+if (size <= 0)
+{
+_putchar('\n');
+size = 0;
+}
 for (column = 0; column < size; column++)
 {
 int total_spaces = spaces;
