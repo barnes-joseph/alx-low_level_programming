@@ -18,5 +18,6 @@ _putchar(' ');
 while (total_characters--)
 _putchar(35);
 spaces = total_spaces - 1;
+_putchar('\n');
 }
 }
