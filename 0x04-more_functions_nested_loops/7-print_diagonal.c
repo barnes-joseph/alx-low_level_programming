@@ -1,24 +1,27 @@
 #include "main.h"
 /**
- * print_line - A function that
- * prints a line with its length equal
- * to the integer
- * @n: int type number
+ * print_diagonal -  function that draws a
+ * diagonal line on the terminal
+ *
+ * @n: number of times character should be printed
  */
 void print_diagonal(int n)
 {
-int total_space = 0;
+int total = n;
+int space = 0;
+
 if (n <= 0)
 {
 n = 0;
 _putchar('\n');
 }
-else
+
+while (n--)
 {
-while (total_space != (n-1))
+while (space--)
 _putchar(' ');
-total_space++;
-}
+space = total - n;
 _putchar(92);
 _putchar('\n');
+}
 }
