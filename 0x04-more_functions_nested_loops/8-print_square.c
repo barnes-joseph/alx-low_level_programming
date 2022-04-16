@@ -3,7 +3,7 @@
  * print_square -  function that draws a
  * square on the terminal
  *
- * @n: number of times character should be printed
+ * @size: number of times character should be printed
  */
 void print_square(int size)
 {
