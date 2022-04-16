@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_line - A function that 
- * prints a line with its length equal 
+ * print_line - A function that
+ * prints a line with its length equal
  * to the integer
  * @n: int type number
  */
