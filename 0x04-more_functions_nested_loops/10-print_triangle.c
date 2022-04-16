@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_square -  function that draws a
+ * print_triangle -  function that draws a
  * triangle on the terminal
  *
  * @size: number of times character should be printed
