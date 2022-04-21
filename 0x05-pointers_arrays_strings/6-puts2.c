@@ -10,7 +10,7 @@ int n = 0, i = 0;
 while (str[n])
 n++;
 
-while (n != 1)
+while (n)
 {
 if (i % 2 == 0)
 _putchar(str[i]);
