@@ -11,15 +11,15 @@ while (str[n])
 n++;
 
 if (n % 2 == 0)
-n = n / 2;
+i = n / 2;
 else
-n = (n + 1) / 2;
-i = n;
-while (n)
+i = (n + 1) / 2;
+
+while (i < n)
 {
 _putchar(str[i]);
 i++;
-n--;
+
 }
 _putchar('\n');
 }
