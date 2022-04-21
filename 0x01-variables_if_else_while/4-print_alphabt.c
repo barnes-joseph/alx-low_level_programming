@@ -2,7 +2,7 @@
 /**
  * main - A function that prints the alphabets
  * except q and e
- * 
+ *
  * Return: int
  */
 int main(void)
