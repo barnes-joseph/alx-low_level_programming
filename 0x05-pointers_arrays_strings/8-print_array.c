@@ -12,7 +12,7 @@ int i = 0;
 int x = n;
 while (x)
 {
-printf(" %d", a[i]);
+printf("%d", a[i]);
 if (i == n - 1)
 printf("\n");
 else
