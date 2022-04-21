@@ -3,9 +3,10 @@
 
 int main()
 {
-    int x = 5;
-    int *n = &x;
-    reset_to_98(n);
-    printf("%d",x);
+    int a = 98;
+    int b = 42;
+    printf("a=%d, b=%d",a,b);
+    swap_int(&a,&b);
+    printf("a=%d, b=%d",a,b);
     return (0);    
 }
