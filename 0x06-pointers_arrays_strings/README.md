@@ -1,0 +1,1 @@
+Directory for alx assignments on pointers, strings and arrays.
